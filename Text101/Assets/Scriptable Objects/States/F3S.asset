@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d19177a074fa5746b011c58345aa500, type: 3}
+  m_Name: F3S
+  m_EditorClassIdentifier: 
+  storyText: "Attempt Success!\nYour expert sneak has allowed you to remain muffled
+    in the dark. You can hear the beast growl and thump around the cave but it cannot
+    seem to find you.\r\n\r\nAs you continue to hug the wall you almost trip on a
+    cellar door. You don't hesitate to swing it open, the loud creeking noise attracts
+    the attention of the beast.\r\nThump, thump, thump! The beast charges you and
+    roars but before it can reach you, you quickly slam the plank shut. You can hear
+    scratching and roaring from the other side but eventually the beast gives up and
+    you can hear silence on the other side.\r\n\r\nWhat have I gotten myself into?\r\n1.
+    To continue\r\n2. To continue"
+  nextStates:
+  - {fileID: 11400000, guid: 242795d48807dfb44977e751f23ec14a, type: 2}
+  - {fileID: 11400000, guid: 242795d48807dfb44977e751f23ec14a, type: 2}
+  atribute: 0
+  atributeStat: {fileID: 0}

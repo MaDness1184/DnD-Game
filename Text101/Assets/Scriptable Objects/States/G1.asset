@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d19177a074fa5746b011c58345aa500, type: 3}
+  m_Name: G1
+  m_EditorClassIdentifier: 
+  storyText: "You grab the hilt of your sword and quickly unshieth a small broadsword
+    from the hilt. The beast comes closer and stops right in front of you. It lets
+    out a loud roar and you can see it is a very large bear! When its paws touch the
+    floor it lunges at you, and as its swiping at your head you stick your sword right
+    in its heart.\r\n\r\nThe beast whines and goes limp. With all the strength you
+    can muster you manage to push the big beast off you.\r\n\r\n1. To continue\r\n2.
+    To continue"
+  nextStates:
+  - {fileID: 11400000, guid: 2912c7e9373b4d340a161ec07def936e, type: 2}
+  - {fileID: 11400000, guid: 2912c7e9373b4d340a161ec07def936e, type: 2}
+  atribute: 0
+  atributeStat: {fileID: 0}

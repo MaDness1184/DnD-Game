@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d19177a074fa5746b011c58345aa500, type: 3}
+  m_Name: I1S
+  m_EditorClassIdentifier: 
+  storyText: "Attempt Success!\nYou decide to descend the stairs slowly taking it
+    a step at a time with your torch In front of you. You notice one of the steps
+    looks unlike the others and with further inspection you can see that the step
+    is actually a pressure plate to set off some sort of trap. Carefully, you step
+    over, and making sure that no other step is a trap you get to the bottom the stairs
+    safely.\r\n\r\n1. To continue\r\n2. To continue"
+  nextStates:
+  - {fileID: 0}
+  - {fileID: 0}
+  atribute: 0
+  atributeStat: {fileID: 0}

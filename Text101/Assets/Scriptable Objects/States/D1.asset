@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d19177a074fa5746b011c58345aa500, type: 3}
+  m_Name: D1
+  m_EditorClassIdentifier: 
+  storyText: "My my, you are a charm lad! Just take the path beside me and It should
+    lead you to the cave. Good luck kind adventurer!\r\n\r\nYou can take the path
+    down and find a small clearing, you see a large\r\ncave opening on the side of
+    a cliff. A pair of yellow eyes stare you down from the darkness of the cave and
+    quickly vanish.\r\n\r\nWhat should I do?\r\n1. Light a torch\r\n2. Silently investigate
+    in the dark"
+  nextStates:
+  - {fileID: 11400000, guid: c294c27897651bc4b9d1c483303dd9a4, type: 2}
+  - {fileID: 11400000, guid: 0517ef1c3bcc0d041bd248973199c4d2, type: 2}
+  atribute: 0
+  atributeStat: {fileID: 0}

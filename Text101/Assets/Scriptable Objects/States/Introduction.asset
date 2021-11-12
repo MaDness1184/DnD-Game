@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d19177a074fa5746b011c58345aa500, type: 3}
+  m_Name: Introduction
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to your DnD Adventure!
+
+
+    In this game you choose what your character will do.
+
+    Your character will be given random stats, some options will have a higher chance
+    of success based on those stats.
+
+
+    Press (S) to toggle the Character Stats Sheet.
+
+    Press (1) to choose Option One.
+
+    Press (2) to choose Option Two.
+
+    Press (Q) to exit game.
+
+
+    (1) Start
+
+    (2) Start
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: 69c24681d74aff54aa3b4ec6ffa65cac, type: 2}
+  - {fileID: 11400000, guid: 69c24681d74aff54aa3b4ec6ffa65cac, type: 2}
+  atribute: 0
+  atributeStat: {fileID: 0}

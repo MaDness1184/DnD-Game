@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d19177a074fa5746b011c58345aa500, type: 3}
+  m_Name: E2
+  m_EditorClassIdentifier: 
+  storyText: "Quietly and slowly you hug the right wall of the cave and the further
+    you\r\ndelve the bigger you can sense the cave becoming. \r\n\r\nSnap! Oh shit
+    you stepped on a branch! You hear a low pitched\r\ngrowl from within, the beast
+    is getting closer.\r\n\r\nWhat should I do?\r\n1. Light a torch\r\n2. Continue
+    in the dark (Stealth)"
+  nextStates:
+  - {fileID: 11400000, guid: 5ca3ec78ee33db1438ace3d167907603, type: 2}
+  - {fileID: 11400000, guid: c224b83feb4cca34596a9c4490066e8e, type: 2}
+  - {fileID: 11400000, guid: 5ca3ec78ee33db1438ace3d167907603, type: 2}
+  atribute: 1
+  atributeStat: {fileID: 11400000, guid: 497b53501b0570b4080a5ee688ff56b8, type: 2}

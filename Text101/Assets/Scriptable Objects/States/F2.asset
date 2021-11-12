@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d19177a074fa5746b011c58345aa500, type: 3}
+  m_Name: F2
+  m_EditorClassIdentifier: 
+  storyText: "Thump... thump... thump... thump, thump, thump! The sound gets louder\r\nand
+    faster.\r\n\r\nWhat should I do?\r\n1. Ready your sword\r\n2. Use magic staff"
+  nextStates:
+  - {fileID: 11400000, guid: a0aaccc7eb8e5f14b862e3407878bc5a, type: 2}
+  - {fileID: 11400000, guid: b8899d9a5524e0e4881707c8591e434e, type: 2}
+  atribute: 0
+  atributeStat: {fileID: 0}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d19177a074fa5746b011c58345aa500, type: 3}
+  m_Name: A1
+  m_EditorClassIdentifier: 
+  storyText: "While traveling down the King's road you spot and elderly man sitting
+    on a trunk beside the trail. \r\n\"Hello traveler! If I may, I would like to ask
+    a favor of you you seem like the type to adventure. I'll have a hefty reward for
+    your trouble.\"\r\n\r\nSenile old man in the woods huh, should I really bother
+    with him right now?\r\n\r\nWhat should I do?\r\n(1) Yes, what is it?\r\n(2) Unless
+    your reward is coin, I'm not interested old man. (Persuade)"
+  nextStates:
+  - {fileID: 11400000, guid: 86f1048a70dd1c040b008478c702e995, type: 2}
+  - {fileID: 11400000, guid: 38ef8759ab0c47c44b132c194be42457, type: 2}
+  - {fileID: 11400000, guid: bcb9282dbe7f12749b8d30aacdf03943, type: 2}
+  atribute: 1
+  atributeStat: {fileID: 11400000, guid: 2a9ef01598937664f8416fc86f24fb4a, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d19177a074fa5746b011c58345aa500, type: 3}
+  m_Name: B2F
+  m_EditorClassIdentifier: 
+  storyText: "Attempt Failed!\nYou take me for a fool? Of course there will be coin!
+    Ahh, I'm sorry where are my manners, I guess I hoped you wouldn't ask, It's kind
+    of a red flag for me you know. Anyhoo I left a very valuable book of mine in a
+    cave nearby, do you think you could Retrieve it for me?\r\n\r\nWhat should I do?\r\n1.
+    Fine\r\n2. What's the book about?"
+  nextStates:
+  - {fileID: 11400000, guid: b967f0c28b473524e8d8317118801dc7, type: 2}
+  - {fileID: 11400000, guid: c3b5465511e09a94c983534f36e9a5c0, type: 2}
+  atribute: 0
+  atributeStat: {fileID: 0}
